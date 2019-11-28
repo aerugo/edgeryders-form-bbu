@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "title": "Edgeryders Internet of Humans",
+    "logoSrc": "/favicon.ico",
+    "imageSrc": "/logo.png",
+    "beginText": "BEGIN",
+    "beginTitle": "Let's get started!"
+  },
+  "slideDefaults": {
+    "title": "Q{{index}}",
+    "backText": "BACK",
+    "nextText": "NEXT",
+    "backTitle": "Go back",
+    "nextTitle": "Continue",
+    "cancelTitle": "Clear all answers and start again",
+    "fields": [{
+      "name": "message",
+      "type": "textarea",
+      "placeholder": "write here...",
+      "required": false,
+      "autofocus": true,
+      "error": "Please write a response!"
+    }],
+    "diagram": {},
+    "settings": { "omitFields": true }
+  },
+  "slides": [{
+    "title": "Hello, and welcome to Edgeryders Internet of Humans!",
+    "subtitle": "What should the Internet - and all it encompasses, which means pretty much everything - really do for humanity? How should it work? How should it be governed?",
+    "body": "Next Generation Internet [NGI] is a quest to understand how we the people, who contribute towards building the evolution of the Internet and our digital technologies, actively build a better future against a backdrop of massive social, economic, ecological and political challenges.",
+    "fields": []
+  }, {
+    "index": 1,
+    "body": "Tell us about yourself? What are you working on and why are you at Internetdagarna?"
+  }, {
+    "index": 2,
+    "body": "When did something related to the internet last make you hopefull or happy?"
+  }, {
+    "index": 3,
+    "body": "When did something related to the internet last make you upset, afraid or angry?"
+  }, {
+    "index": 4,
+    "title": "The last little bit!",
+    "nextTitle": "Submit your response!",
+    "body": "These questions will be used to register an account for you on our forum. where you can go back and update your answers.",
+    "fields": [{
+      "name": "name",
+      "type": "text",
+      "placeholder": "Name/nickname (you can be anonomous)",
+      "half": true,
+      "required": true,
+      "autofocus": true,
+      "error": "Please enter your name/nickname"
+    }, {
+      "name": "email",
+      "type": "email",
+      "placeholder": "E-mail",
+      "required": true,
+      "error": "Please enter your email address",
+      "settings": { "omit": true }
+    }, {
+      "name": "consent",
+      "type": "checkbox",
+      "placeholder": "I understand that submitting this form will create an account for me on Edgeryders.eu, and that my responses will be posted by that account. I understand that I can log in at any time and update my answer or continue the conversation with other participants. I understand that this form is used for community driven research. Researchers are encouraged to treat your answers as a window into societal, economic, technological, and political trends and transformations that affect us.",
+      "required": true,
+      "error": "Please consent to the terms and conditions",
+      "settings": { "omit": true }
+    }],
+    "nextText": "SEND",
+    "submit": true,
+    "settings": { "omitBody": true }
+  }, {
+    "title": "Well done!",
+    "body": "Thank you for taking the time to join the Internet of Humans!",
+    "fields": [],
+    "backText": null,
+    "nextText": null
+  }],
+  "messages": {
+    "networkError": "Sorry, we were unable to store your response due to a network connectivity issue. Please try clicking on \"Send\" again.",
+    "username": "It seems somebody has already chosen your preferred username / nickname. Please enter a different one and click again on \"Send\".",
+    "email": "It seems you already have an account on our forum using this e-mail address, or have entered an invalid address. Please choose a different e-mail address and click again on \"Send\".",
+    "default": "Sorry, we were unable to store your response due to an unknown error. Please try clicking on \"Send\" again."
+  }
+}
